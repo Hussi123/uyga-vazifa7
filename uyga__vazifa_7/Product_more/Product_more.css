@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+body {
+    font-family: "Zona Pro";
+}
+
+
+.product_more {
+    background-color: var(--green);
+    position: relative;
+}
+
+.product_more .container {
+    max-width: 900px;
+    padding-top: 73px;
+    padding-bottom: 106px;
+    position: relative;
+    z-index: 1;
+}
+
+.product_more-top {
+    height: 694px;
+    position: relative;
+}
+
+.product__more-img {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.product_more-title {
+    max-width: 536px;
+    font-family: 'Zona Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52.2487px;
+    line-height: 64px;
+    color: #FFE5CE;
+    text-transform: lowercase;
+}
+
+.product__more-links {
+    color: #FFF;
+    margin-top: 15px;
+    margin-bottom: 67px;
+}
+
+.product__more-link {
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.product__more-active {
+    opacity: 1;
+}
+
+.product__more-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.036px;
+    line-height: 44px;
+    color: #FFE1C7;
+}
+
+.zakazat__btn {
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #017A6D;
+    max-width: 200px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 16px;
+    background: #FFE1C7;
+    margin-top: 106px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.background__img-position {
+    position: absolute;
+    width: 100%;
+    height: 694px;
+}
+
+.background__img-position img:first-of-type {
+    width: 100%;
+    height: 70%;
+}
+
+.background__img-position img:last-of-type {
+    width: 100%;
+    height: 50%;
+}
+
+.product__more__card-title {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFE5CE;
+}
+
+
+.product_more__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    gap: 35px;
+    justify-content: center;
+}
+
+.product_more__card {
+    position: relative;
+    background: #FFE2CA;
+    opacity: 0.99;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 24px 41px;
+    max-width: 275px;
+    transition: all ease 500ms;
+}
+
+.product_more__card:hover {
+    box-shadow: 0px 18px 38px rgba(255, 225, 199, 0.75);
+
+}
+
+.product_more-text {
+    color: #006157 !important;
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4787px;
+    line-height: 17px;
+    text-align: center;
+}
+
+/* modal page */
+.product__modal-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.modal__item {
+    max-width: 900px;
+    width: 100%;
+    padding: 70px 116px;
+    height: 503px;
+    background: #FFE2CA;
+    opacity: 0.99;
+    border-radius: 32.4516px;
+    position: relative;
+}
+
+.modal__title {
+    color: #006157;
+    font-size: 37px;
+    max-width: 388px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    text-align: start;
+}
+
+.modal__form input {
+    width: 100%;
+    background: rgba(145, 255, 244, 0.21);
+    border: 1px solid #136A61;
+    border-radius: 13px;
+    padding: 10px 30px;
+    outline: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.modal__form input::placeholder {
+    font-family: 'Zona Pro';
+    color: #136A61;
+    opacity: 0.5;
+}
+
+.input__wrapper input:first-of-type {
+    margin-bottom: 18px;
+}
+
+.product__modal-btn {
+    background: #017A6D;
+    border-radius: 27.8157px;
+    width: 178px;
+    height: 55px;
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.product__modal-btn i{
+    width: 40px;
+    height: 40px;
+    background: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9px;
+    color: #006157;
+}
+
+.modal__img-red{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal__close-btn{
+    position: absolute;
+    top: 40px;
+    right: 70px ;
+    font-size: 2rem;
+    z-index: 1;
+    color:#006157 ;
+}
+
+#modal-togler:checked + .product__modal-form{
+    z-index: 1;
+    background-color: rgba(20, 25, 24, 0.621);
+}
+
+/* modal 2 page done */
+
+
+
+
+
+
+
+@media (max-width:1120px) {
+    .product_more .section__title span {
+        display: none;
+    }
+}
+
+@media (max-width:1050px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .product_more .section__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .product_more__head {
+        display: none;
+    }
+
+    .product_more .product_more__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .product_more .section__title,
+    .product_more product_moret__text {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .product_more .product_more__img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/image/logo.png">
+
+    <title>Product_more</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./fonts/zona-pro-cufonfonts/stylesheet.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Product_more/Product_more.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <label for="togler" class="header__nav-togler">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <img class="header__logo-img" src="../image/logo.png" alt="header__logo-img">
+
+        <nav class="header__nav">
+            <a href="../index.html" class="header__nav-link">Home page</a>
+            <a href="../about/index.html" class="header__nav-link">About us</a>
+            <a href="#" class="header__nav-link">Videolarimiz</a>
+            <a href="#" class="header__nav-link">Yangiliklar</a>
+            <a href="#" class="header__nav-link">Foydalanish shartlari</a>
+        </nav>
+
+        <div class="header__additional">
+            <div class="header__langs">
+                <button class="header__lang-btn">
+                    UZ
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="header__lang-list">
+                    <div class="header__lang-item">UZ</div>
+                    <div class="header__lang-item">RU</div>
+                </div>
+            </div>
+            <button class="header__contact-btn">
+                <b>+998 99 011 89 34</b>
+                <span>aloqa uchun</span>
+            </button>
+        </div>
+
+    </header>
+
+    <input type="checkbox" id="togler" hidden>
+
+    <div class="header__mobile-nav">
+        <div class="header__mobile__header">
+            <img class="header__mobile-logo" src="../image/logo.png" alt="">
+
+            <label for="togler" class="header__mobile-close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+        </div>
+
+        <div class="header__mobile__links">
+            <a href="../index.html" class="header__mobile__link"> Home page </a>
+            <a href="../index.html" class="header__mobile__link"> About us </a>
+            <a href="#" class="header__mobile__link"> Videolerimiz </a>
+            <a href="#" class="header__mobile__link"> Yangiliklarimiz </a>
+            <a href="#" class="header__mobile__link"> Foydelanish shartlari</a>
+        </div>
+    </div>
+
+    <section class="product_more">
+        <div class="background__img-position">
+            <img src="../image/Product_more-Ellipse_46.png" alt="" class="baground__img-ellip-46">
+            <img src="../image/Product_more-Ellipse_45.png" alt="" class="baground__img-ellip-46">
+        </div>
+        <div class="container">
+            <div class="product_more-top">
+                <div class="product_more-title">
+                    ВЛАЖНЫЕ CАЛФЕТКИ
+                    BABY LUX 509
+                </div>
+
+                <div class="product__more-links">
+                    <a href="../index.html" class="product__more-link">Home page</a>
+                    <span>></span>
+                    <a href="./index.html" class="product__more-link product__more-active">product</a>
+                </div>
+
+                <p class="product__more-text">
+                    Артикул: <b> 509 </b>
+                </p>
+
+                <p class="product__more-text">
+                    Размер:<b> 20×15</b>
+                </p>
+
+                 
+                    <label for="modal-togler" class="zakazat__btn">
+                        Заказать
+                    </label>
+
+                <img src="../image/product__more-img.png" alt="product__more-img" class="product__more-img">
+            </div>
+
+
+            <div class="product_more__cards-wrapper">
+                <div class="product__more__card-title">
+                    Похожие продукты
+                </div>
+
+                <div class="product_more__cards">
+
+
+                    <div class="product_more__card">
+                        <div class="product_more-img">
+                            <img src="../image/product-img.svg" alt="">
+                        </div>
+                        <div class="product_more-text">
+                            Бумажные cалфетки (Asian Pack Aroma) 310
+                        </div>
+                    </div>
+
+                    <div class="product_more__card">
+                        <div class="product_more-img">
+                            <img src="../image/product-img.svg" alt="">
+                        </div>
+                        <div class="product_more-text">
+                            Бумажные cалфетки (Asian Pack Aroma) 310
+                        </div>
+                    </div>
+
+                    <div class="product_more__card">
+                        <div class="product_more-img">
+                            <img src="../image/product-img.svg" alt="">
+                        </div>
+                        <div class="product_more-text">
+                            Бумажные cалфетки (Asian Pack Aroma) 310
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <input type="checkbox" class="modal-togler" id="modal-togler" name="modal-togler" hidden>
+
+    <label for="modal-togler" class="product__modal-form">
+
+        <div class="modal__item">
+            <butto class="modal__close-btn">
+                <i class="fas fa-xmark"></i>
+            </butto>
+            <div class="product_more-title modal__title">
+                ВЛАЖНЫЕ CАЛФЕТКИ
+                BABY LUX 509
+            </div>
+
+            <form class="modal__form">
+                <div class="input__wrapper">
+                    <input type="text" placeholder="Ismingiz">
+                    <input type="text" placeholder="Telefon raqamingiz">
+                </div>
+                <button class="product__modal-btn">
+                    <i class="fas fa-arrow-right"></i>
+                    Yuborish
+                </button>
+            </form>
+
+            <img src="../image/modal__img-red.svg" class="modal__img-red" alt="">
+        </div>
+    </label>
+
+    <section class="service">
+        <div class="sevice__wrapper">
+            <div class="service__content service__content1">
+                <img src="../image/logo.png" alt="">
+                <p class="service__text">
+                    Quo is the most easier way for transaction
+                    with your friends and family, No matter where are you.
+                    An exceptional way for make your life one step easier.
+                </p>
+                <div class="social__icon">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="service__text service__text2">
+                    Yumshoq va mayin salfetkalar, boshqa mahsulotlarning eng sifatlisni siz Pero'dan topasiz. Barcha
+                    qulayliklar
+                </div>
+            </div>
+
+
+            <div class="service__cont   ent service__content2">
+                <ul>
+                    <li><a href="#"></a>Company</a></li>
+                    <li><a href="#"></a>About Us</a></li>
+                    <li><a href="#"></a>Contact Us</a></li>
+                    <li><a href="#"></a>Support</a></li>
+                    <li><a href="#"></a>News/Blog</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#"></a>Terms</a></li>
+                    <li><a href="#"></a>Privacy Policy</a></li>
+                    <li><a href="#"></a>Terms of Usage</a></li>
+                    <li><a href="#"></a>Areas of</a></li>
+                    <li><a href="#"></a>coverage</a></li>
+                </ul>
+
+
+                <ul>
+                    <li><a href="#"></a>Company</a></li>
+                    <li><a href="#"></a>84/E/2 West,</a></li>
+                    <li><a href="#"></a>Jafrabad</a></li>
+                    <li><a href="#"></a>Liverpool, Uk</a></li>
+                    <li><a href="#"></a>+8801757410907</a></li>
+                    <li><a href="#"></a>903</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p class="copy__left">
+                Copyright © PERO | Designed by
+            </p>
+            <p class="abba__marjeting">
+                abba marketing
+            </p>
+            <p class="Powered">
+                - Powered by
+            </p>
+            <p class="copy__right">
+                ABBA
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
