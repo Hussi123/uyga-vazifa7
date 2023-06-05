@@ -16,6 +16,13 @@ body{
     z-index: 1;
 }
 
+
+.header .container,
+.service .container,
+footer .container{
+    max-width: 1300px;
+}
+
 .product__head {
     display: flex;
     align-items: start;
@@ -349,18 +356,27 @@ body{
 
 @media (max-width:1050px) {
     .container {
-        max-width: 90vw;
+        padding: 0 50px;
     }
 
     .product .section__title {
         font-size: 35px;
+    }
+
+    .product__ul{
+        gap: 30px;
+    }
+
+    .product__li{
+        font-size: 12px;
+        
     }
 }
 
 @media (max-width:768px) {
 
     .product__head {
-        display: none;
+        padding: 0;
     }
 
     .product .product__wrapper {
@@ -369,7 +385,7 @@ body{
     }
 
     .product .section__title,
-    .product productt__text {
+    .product .productt__text {
         margin: 20px auto;
         text-align: center;
     }

@@ -17,6 +17,7 @@
 body {
     font-family: 'Rubik', sans-serif;
     background: #FFF;
+    overflow-x: hidden;
 }
 
 a {
@@ -85,12 +86,15 @@ button:active {
 
 
 /* header start */
-.header {
+.header{
     padding: 32px;
+    background: #FFF;
+}
+
+.header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #FFF;
     position: relative;
     z-index: 1;
 }

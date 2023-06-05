@@ -8,6 +8,12 @@
     max-width: 965px; 
 }
 
+.header .container,
+.service .container,
+footer .container{
+    max-width: 1300px;
+}
+
 .about .container {
     margin: 0 auto;
     padding-top: 73px;
@@ -21,6 +27,7 @@
     align-items: start;
     justify-content: space-between;
     padding-bottom: 46px;
+    width: 100%;
 }
 
 .about .section__title {
@@ -160,14 +167,12 @@
 }
 
 .content {
-    width: 100%;
-    max-width: 900px;
     background: #68dbcf85;
     opacity: 1;
     border-radius: 56px;
     padding: 58px 74px 38px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
@@ -189,11 +194,10 @@
 }
 
 .content__img {
-    max-width: 110px;
 }
 
 .content__text {
-    max-width: 130px;
+    max-width: 170px;
     font-family: 'Zona Pro';
     font-style: normal;
     font-weight: 400;
@@ -469,7 +473,6 @@
         border-radius: 24px;
         padding: 29px 37px 20px;
         display: flex;
-        align-items: center;
         justify-content: space-between;
     }
 
@@ -515,6 +518,41 @@
     }
 }
 
+@media (max-width:550px){
+    .bizning__tajribamiz .content{
+        padding: 20px;
+    }
+
+    .bizning__tajribamiz .content .section__title{
+        font-size: 21px;
+        margin-left: 20px;
+    }
+
+    .bizning__tajribamiz .content__img{
+        width: 50%;
+    }
+
+    .bizning__tajribamiz .content__text{
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .bizning__tajribamiz .content__item{
+        text-align: center;
+    }
+
+    .bizning__tajribamiz .content__text{
+        text-align: start;
+        max-width: 76px;
+    }
+
+    .proisvodstvo .section__title {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    
+}
+
 @media (max-width:420px) {
     .about__text {
         font-size: 16px;
@@ -541,7 +579,6 @@
     }
 
     .our__service{
-        border: solid red 1px;
         padding: 50px 0;
     }
 
