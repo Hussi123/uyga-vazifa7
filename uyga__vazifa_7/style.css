@@ -92,7 +92,7 @@ button:active {
     justify-content: space-between;
     background: #FFF;
     position: relative;
-    z-index: 4;
+    z-index: 1;
 }
 
 .header__nav {

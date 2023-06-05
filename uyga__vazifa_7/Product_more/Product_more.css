@@ -33,13 +33,14 @@ body {
 
 .product_more-title {
     max-width: 536px;
-    font-family: 'Zona Pro', sans-serif;
+    font-family: 'Zona Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 52.2487px;
-    line-height: 64px;
+    font-size: 37.8095px;
+    line-height: 46px;
     color: #FFE5CE;
     text-transform: lowercase;
+    margin-bottom: 43px;
 }
 
 .product__more-links {
@@ -215,9 +216,10 @@ body {
     gap: 23px;
     color: #FFF;
     font-size: 15px;
+    cursor: pointer;
 }
 
-.product__modal-btn i{
+.product__modal-btn i {
     width: 40px;
     height: 40px;
     background: #FFF;
@@ -229,30 +231,70 @@ body {
     color: #006157;
 }
 
-.modal__img-red{
+.modal__img-red {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.modal__close-btn{
+.modal__close-btn {
     position: absolute;
     top: 40px;
-    right: 70px ;
+    right: 70px;
     font-size: 2rem;
     z-index: 1;
-    color:#006157 ;
+    color: #006157;
 }
 
-#modal-togler:checked + .product__modal-form{
+#modal-togler:checked+.product__modal-form {
     z-index: 1;
     background-color: rgba(20, 25, 24, 0.621);
 }
 
 /* modal 2 page done */
 
+.product__modal-done {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    background: #006157;
+}
+
+.modal__content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal__content-title {
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 42.4415px;
+    line-height: 56px;
+    color: #017A6D;
+    margin-bottom: 30px;
+}
+
+.modal__content p {
+    font-weight: 400;
+    font-size: 25.8177px;
+    line-height: 43px;
+    color: #017A6D;
+    position: absolute;
+    max-width: 394px;
+}
 
 
+#modal-togler-done:checked + .product__modal-done{
+    z-index: 30;
+}
 
 
 

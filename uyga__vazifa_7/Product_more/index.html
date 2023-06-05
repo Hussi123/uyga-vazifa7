@@ -26,7 +26,7 @@
             <i class="fa-solid fa-bars"></i>
         </label>
 
-        <img class="header__logo-img" src="../image/logo.png" alt="header__logo-img">
+        <a href="../index.html"><img class="header__logo-img" src="../image/logo.png" alt="header__logo-img"></a>
 
         <nav class="header__nav">
             <a href="../index.html" class="header__nav-link">Home page</a>
@@ -101,10 +101,10 @@
                     Размер:<b> 20×15</b>
                 </p>
 
-                 
-                    <label for="modal-togler" class="zakazat__btn">
-                        Заказать
-                    </label>
+
+                <label for="modal-togler" class="zakazat__btn">
+                    Заказать
+                </label>
 
                 <img src="../image/product__more-img.png" alt="product__more-img" class="product__more-img">
             </div>
@@ -155,7 +155,6 @@
     <input type="checkbox" class="modal-togler" id="modal-togler" name="modal-togler" hidden>
 
     <label for="modal-togler" class="product__modal-form">
-
         <div class="modal__item">
             <butto class="modal__close-btn">
                 <i class="fas fa-xmark"></i>
@@ -170,13 +169,37 @@
                     <input type="text" placeholder="Ismingiz">
                     <input type="text" placeholder="Telefon raqamingiz">
                 </div>
-                <button class="product__modal-btn">
-                    <i class="fas fa-arrow-right"></i>
-                    Yuborish
-                </button>
+                <label for="modal-togler-done" class="product__modal-btn">
+                        <i class="fas fa-arrow-right"></i>
+                        Yuborish
+                </label>
             </form>
-
             <img src="../image/modal__img-red.svg" class="modal__img-red" alt="">
+        </div>
+    </label>
+
+    <imput type="checkbox" checked class="modal-togler-done" id="modal-togler-done" name="modal-togler-done"></imput>
+
+    <label for="modal-togler-done" class="product__modal-done">
+        <div class="modal__item">
+            <button class="modal__close-btn">
+                <i class="fas fa-xmark"></i>
+            </button>
+
+            <div class="modal__content">
+                <div class="moadal__left">
+                    <h2 class="modal__content-title">
+                        Buyurtmangiz
+                        qabul qilindi
+                    </h2>
+                    <p>Tez orada mutahasislarimiz
+                        siz bilan bog`lanishadi
+                    </p>
+                </div>
+                <div class="modal__rigt">
+                    <img src="../image/modal__img-done.png" alt="" class="modal__img-done">
+                </div>
+            </div>
         </div>
     </label>
 
